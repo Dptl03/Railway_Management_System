@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Update Fare</title>
+	<link rel="stylesheet" type="text/css" href="change_fare.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Update Fare</h1>
+		<form>
+			<label for="train-id">Train ID:</label>
+			<input type="text" id="train-id" name="train-id" required pattern="[A-Za-z]{2}[0-9]{4}">
+
+            <label for="Class Name">Class Name:</label>
+			<input type="text" id="Class Name" name="Class Name" required>
+
+            <label for="New Fare">New Fare:</label>
+			<input type="number" id="New Fare" name="New Fare" required>
+
+			<input type="submit" value="Change Fare">
+		</form>
+	</div>
+</body>
+</html>

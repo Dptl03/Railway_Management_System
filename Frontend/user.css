@@ -1,0 +1,47 @@
+body {
+  background-color: #2F3242;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 6rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: #0066CC;
+  color: #FFF;
+  border: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #5A5C6C;
+  cursor: pointer;
+}
+
+.login {
+  background-color:#68c950;
+}
+
+.signup {
+  background-color: #68c950;
+}

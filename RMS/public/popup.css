@@ -1,0 +1,43 @@
+body {
+    background-color: #2F3242;
+    color: white;
+    }
+    
+    .container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px;
+    background-color: #2F3242;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #2F3242;
+    }
+    
+    h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    
+    p {
+    font-size: 24px;
+    margin-bottom: 50px;
+    }
+    
+    .nav-btn {
+    background-color: #f8f8f8;
+    color: #2F3242;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+    }
+    
+    .nav-btn:hover {
+    background-color: #2F3242;
+    color: white;
+    }

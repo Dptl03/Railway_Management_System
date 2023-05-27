@@ -1,0 +1,33 @@
+body {
+    background-color: #2F3242;
+    color: white;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .dashboard-button {
+    background-color: #68c950;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #5A5C6C;
+  }
+  
+  .button-container {
+    margin-top: 130px;
+    text-align: center;
+  }
+  
